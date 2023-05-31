@@ -41,7 +41,7 @@ const Form = () => {
             <input type='text' name='edad' placeholder='Edad Mascota'  onChange={(e) => handleChange(e, 'edad')}></input>
             <button>Submit</button>
             {
-            error && <span style={{color: 'red'}}>Por favor chequea que la información sea correcta</span>
+            error && <span style={{color: 'red'}}>Por favor chequea que la informacion sea correcta</span>
             }
         </form>
         {
